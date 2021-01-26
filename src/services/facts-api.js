@@ -14,7 +14,8 @@ export function getFact() {
   
 }
 
-const BASE_URL = 'https://project-3-catfacts.herokuapp.com/api/users';
+// const BASE_URL = 'https://project-3-catfacts.herokuapp.com/api/users';
+const BASE_URL = 'https://catfact.ninja/fact?max_length=140';
 
 function addFavorite() {
     return fetch(BASE_URL + '/favorites', {
